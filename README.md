@@ -6,6 +6,8 @@ Perfect for terminal lovers who want to add a bit of feline charm without taking
 > “Blood for the blood god, skulls for the skull throne”  
 > — With a little cat under it 🐱
 
+![example](https://github.com/user-attachments/assets/29ae41ff-61dd-4ccb-97cd-1730fc3bf4d5)
+
 ---
 
 ## 📦 Installation
