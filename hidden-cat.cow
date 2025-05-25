@@ -1,0 +1,7 @@
+$eye = chop($eyes);
+$the_cow = <<EOC; 
+   $thoughts         
+    |\\__/|   (`\\
+  __|${eye} ${eye} |_   ) )
+-(((---(((--------
+EOC
