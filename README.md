@@ -54,4 +54,33 @@ Most cat cowfiles are:
 - ✅ **Cute** — still full of personality
 - ✅ **Terminal-friendly** — great for minimalist setups or small screens
 
-Perfect for devs, sysadmins, or anyone who wants just a *hint* of whiskered wisdom in their terminal.
+---
+
+## 🐚 Show Hidden Cat at Every Terminal Start
+
+To greet yourself with a wise whisker of wisdom every time you open the terminal, add the following line to your shell's configuration file:
+
+### Bash (`~/.bashrc`)
+```bash
+cowsay -f hidden-cat "Welcome back, human." | lolcat
+```
+
+### Zsh (`~/.zshrc`)
+```bash
+cowsay -f hidden-cat "Welcome back, human." | lolcat
+```
+
+### Fish (`~/.config/fish/config.fish`)
+```fish
+cowsay -f hidden-cat "Welcome back, human." | lolcat
+```
+
+> 📝 You can change the message to anything you like, or remove `| lolcat` if you prefer plain output. For randomness, you can pipe the output of [fortune](https://github.com/shlomif/fortune-mod) into cowsay.
+
+After editing the file, either restart your terminal or reload the config:
+
+```bash
+source ~/.bashrc   # or ~/.zshrc, etc.
+```
+
+Now, your terminal will be blessed by a miniature cat philosopher each time you open it. 🐱✨
